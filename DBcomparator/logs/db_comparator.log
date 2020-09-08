@@ -1,0 +1,57 @@
+08-07 13:46 root         INFO     DB Comparator logging
+08-07 13:46 db_comparator.main DEBUG    Debug message
+08-07 13:46 db_comparator.main INFO     Info message
+08-07 13:46 db_comparator.main WARNING  Warning message
+08-07 13:46 db_comparator.main ERROR    Error message
+08-07 13:46 db_comparator.main CRITICAL Critical error message
+08-07 13:46 root         INFO     Garbage collection count (25, 10, 10)
+08-07 13:46 root         DEBUG    Garbage collection count (25, 10, 10)
+08-07 13:46 root         DEBUG    Garbage collection
+08-07 13:46 root         INFO     Garbage collection
+08-07 13:46 root         INFO     Garbage collection Info Stats: [{'collections': 120, 'collected': 210, 'uncollectable': 0}, {'collections': 10, 'collected': 184, 'uncollectable': 0}, {'collections': 0, 'collected': 0, 'uncollectable': 0}]
+08-07 13:46 root         DEBUG    Garbage collection Debug Stats: [{'collections': 120, 'collected': 210, 'uncollectable': 0}, {'collections': 10, 'collected': 184, 'uncollectable': 0}, {'collections': 0, 'collected': 0, 'uncollectable': 0}]
+08-07 13:46 root         DEBUG    <module 'gc' (built-in)> in 0.5625
+08-07 13:46 root         DEBUG    Garbage collection debug 0
+08-07 13:46 root         INFO     Garbage collection info 0
+08-07 13:46 root         INFO     Full process in elapsed time 0.578125
+08-07 13:46 root         INFO     <pyodbc.Connection object at 0x000001FC43B651D0>: Connecting to DB1...
+08-07 13:46 root         DEBUG    <pyodbc.Connection object at 0x000001FC43B651D0>: Connection 1 in elapsed time 0.609375
+08-07 13:46 root         INFO     <pyodbc.Connection object at 0x000001FC43B651D0>: Connection 1 in 0.609375
+08-07 13:46 root         DEBUG    First DataFrame row count 3411450
+08-07 13:46 root         DEBUG    First DataFrame executed in elapsed time 13.671875
+08-07 13:46 root         INFO     First DataFrame row count 3411450
+08-07 13:46 root         INFO     First DataFrame executed in elapsed time 13.671875
+08-07 13:46 root         INFO     <pyodbc.Connection object at 0x000001FC4428AED0>: Connecting to DB2...
+08-07 13:46 root         DEBUG    <pyodbc.Connection object at 0x000001FC4428AED0>: Connection 2 in elapsed time 13.671875
+08-07 13:46 root         INFO     <pyodbc.Connection object at 0x000001FC4428AED0>: Connection 2 13.671875
+08-07 13:47 root         DEBUG    Second DataFrame row count 6015466
+08-07 13:47 root         DEBUG    Second DataFrame executed in elapsed time 36.34375
+08-07 13:47 root         INFO     Second DataFrame row count 6015466
+08-07 13:47 root         INFO     Second DataFrame executed in elapsed time 36.34375
+08-07 13:47 datacompy.core DEBUG    Checking equality
+08-07 13:47 datacompy.core INFO     df1 does not Pandas.DataFrame.equals df2
+08-07 13:47 datacompy.core INFO     Number of columns in common: 4
+08-07 13:47 datacompy.core DEBUG    Checking column overlap
+08-07 13:47 datacompy.core INFO     Number of columns in df1 and not in df2: 0
+08-07 13:47 datacompy.core INFO     Number of columns in df2 and not in df1: 0
+08-07 13:47 datacompy.core DEBUG    Merging dataframes
+08-07 13:47 datacompy.core DEBUG    Outer joining
+08-07 13:47 datacompy.core DEBUG    Selecting df1 unique rows
+08-07 13:47 datacompy.core DEBUG    Selecting df2 unique rows
+08-07 13:47 datacompy.core INFO     Number of rows in df1 and not in df2: 3411450
+08-07 13:47 datacompy.core INFO     Number of rows in df2 and not in df1: 6015466
+08-07 13:47 datacompy.core DEBUG    Selecting intersecting rows
+08-07 13:47 datacompy.core INFO     Number of rows in df1 and df2 (not necessarily equal): 0
+08-07 13:47 datacompy.core DEBUG    Comparing intersection
+08-07 13:47 datacompy.core INFO     auth_id: 0 / 0 (0.00%) match
+08-07 13:47 datacompy.core INFO     auth_ln_hash: 0 / 0 (0.00%) match
+08-07 13:47 datacompy.core INFO     hrd_input_dt: 0 / 0 (0.00%) match
+08-07 13:47 datacompy.core INFO     los_requesting_provider: 0 / 0 (0.00%) match
+08-07 13:47 datacompy.core INFO     df1 does not match df2
+08-07 13:47 root         DEBUG    Comparison executed in elapsed time 77.609375
+08-07 13:47 root         INFO     Comparison executed in elapsed time 77.609375
+08-07 13:47 root         DEBUG    <pyodbc.Connection object at 0x000001FC43B651D0>: connection 1 closed
+08-07 13:47 root         INFO     <pyodbc.Connection object at 0x000001FC43B651D0>: connection 1 closed
+08-07 13:47 root         DEBUG    <pyodbc.Connection object at 0x000001FC4428AED0>: connection 2 closed
+08-07 13:47 root         INFO     <pyodbc.Connection object at 0x000001FC4428AED0>: connection 2 closed
+08-07 13:47 root         INFO     Processing complete
